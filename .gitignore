@@ -71,3 +71,5 @@ Testing/
 .venv/
 .idea/
 imgs/
+
+__pycache__/
