@@ -22,4 +22,4 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 resized_image, scale_ratio = resize_img(gray[0:194, 0:319])
 resized_color_img, _ = resize_img(image[0:194, 0:319, :])
-notebook_imshow(image)
+notebook_imshow(gray)
