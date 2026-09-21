@@ -99,6 +99,264 @@ Exalted Shard
 Annulment Shard
 Fracturing Shard
 Mirror Shard
+Sacrifice at Dusk
+Sacrifice at Midnight
+Sacrifice at Dawn
+Sacrifice at Noon
+Mortal Grief
+Mortal Rage
+Mortal Hope
+Mortal Ignorance
+Fragment of the Hydra
+Fragment of the Phoenix
+Fragment of the Minotaur
+Fragment of the Chimera
+Fragment of Enslavement
+Fragment of Eradication
+Fragment of Constriction
+Fragment of Purification
+Fragment of Terror
+Fragment of Emptiness
+Fragment of Shape
+Fragment of Knowledge
+Al-Hezmin's Crest
+Baran's Crest
+Drox's Crest
+Veritania's Crest
+Beauty
+Curiosity
+Ambition
+Cooperation
+Offering to the Goddess
+Tribute to the Goddess
+Gift to the Goddess
+Dedication to the Goddess
+Sacrifice Set
+Mortal Set
+Key to the Crucible
+Key to Decay
+Maddening Object
+Crest of the Elderslayers
+Timeless Eternal Emblem
+Timeless Karui Emblem
+Timeless Vaal Emblem
+Timeless Templar Emblem
+Timeless Maraketh Emblem
+Zorath's Eye of Malevolence
+Zorath's Eye of Authority
+Zorath's Eye of the Inevitable
+Zorath's Eye of the Endless
+The Black Barya
+Simulacrum
+Sacred Blossom
+Ritual Vessel
+An Audience With The King
+Syndicate Medallion
+Divine Vessel
+Awakening Fragment
+Cosmic Fragment
+Blazing Fragment
+Reality Fragment
+Decaying Fragment
+Devouring Fragment
+Synthesising Fragment
+Echo of Loneliness
+Echo of Trauma
+Echo of Reverence
+Traumatic Fragment
+Reverent Fragment
+Lonely Fragment
+Ancient Reliquary Key
+Timeworn Reliquary Key
+Vaal Reliquary Key
+Forgotten Reliquary Key
+Visceral Reliquary Key
+Shiny Reliquary Key
+Archive Reliquary Key
+Oubliette Reliquary Key
+Cosmic Reliquary Key
+Decaying Reliquary Key
+Voidborn Reliquary Key
+Lonely Reliquary Key
+Reverent Reliquary Key
+Traumatic Reliquary Key
+Valdo's Puzzle Box
+Blessing of Xoph
+Blessing of Tul
+Blessing of Esh
+Blessing of Uul-Netol
+Blessing of Chayula
+Hivebrain Gland
+Titanic Scarab
+Titanic Scarab of Treasures
+Titanic Scarab of Legend
+Sulphite Scarab
+Sulphite Scarab of Greed
+Sulphite Scarab of Fumes
+Divination Scarab of The Cloister
+Divination Scarab of Plenty
+Divination Scarab of Pilfering
+Torment Scarab
+Torment Scarab of Peculiarity
+Torment Scarab of Release
+Torment Scarab of Possession
+Anarchy Scarab
+Anarchy Scarab of Gigantification
+Anarchy Scarab of Partnership
+Anarchy Scarab of the Exceptional
+Ritual Scarab of Selectiveness
+Ritual Scarab of Wisps
+Ritual Scarab of Abundance
+Ritual Scarab of Corpses
+Harvest Scarab
+Harvest Scarab of Doubling
+Harvest Scarab of Cornucopia
+Bestiary Scarab
+Bestiary Scarab of the Herd
+Bestiary Scarab of Duplicating
+Bestiary Scarab of the Shadowed Crow
+Influencing Scarab of the Shaper
+Influencing Scarab of the Elder
+Influencing Scarab of Hordes
+Influencing Scarab of Interference
+Trarthan Scarab
+Trarthan Scarab of Infamy
+Trarthan Scarab of Renown
+Trarthan Scarab of Surprising Alliances
+Abyss Scarab
+Abyss Scarab of Multitudes
+Abyss Scarab of Descending
+Abyss Scarab of Crystals
+Abyss Scarab of the Consort
+Essence Scarab
+Essence Scarab of Ascent
+Essence Scarab of Stability
+Essence Scarab of Calcification
+Essence Scarab of Adaptation
+Domination Scarab
+Domination Scarab of Apparitions
+Domination Scarab of Evolution
+Domination Scarab of Terrors
+Incursion Scarab
+Incursion Scarab of Invasion
+Incursion Scarab of Champions
+Incursion Scarab of Timelines
+Betrayal Scarab
+Betrayal Scarab of the Allflame
+Betrayal Scarab of Reinforcements
+Betrayal Scarab of Unbreaking
+Blight Scarab
+Blight Scarab of Bounty
+Blight Scarab of the Blightheart
+Blight Scarab of Blooming
+Blight Scarab of Invigoration
+Breach Scarab of the Hive
+Breach Scarab of the Dreamer
+Breach Scarab of Instability
+Breach Scarab of the Marshal
+Breach Scarab of the Incensed Swarm
+Breach Scarab of Resonant Cascade
+Legion Scarab
+Legion Scarab of Officers
+Legion Scarab of Treasures
+Legion Scarab of The Sekhema
+Legion Scarab of Eternal Conflict
+Cartography Scarab of Escalation
+Cartography Scarab of Risk
+Cartography Scarab of Singularity
+Cartography Scarab of Corruption
+Cartography Scarab of the Multitude
+Beyond Scarab
+Beyond Scarab of Haemophilia
+Beyond Scarab of Corruption
+Beyond Scarab of Resurgence
+Beyond Scarab of the Invasion
+Ambush Scarab
+Ambush Scarab of Hidden Compartments
+Ambush Scarab of Potency
+Ambush Scarab of Containment
+Ambush Scarab of Discernment
+Ultimatum Scarab
+Ultimatum Scarab of Bribing
+Ultimatum Scarab of Dueling
+Ultimatum Scarab of Catalysing
+Ultimatum Scarab of Inscription
+Expedition Scarab
+Expedition Scarab of Runefinding
+Expedition Scarab of Verisium Powder
+Expedition Scarab of Infusion
+Expedition Scarab of Archaeology
+Delirium Scarab
+Delirium Scarab of Mania
+Delirium Scarab of Paranoia
+Delirium Scarab of Neuroses
+Delirium Scarab of Delusions
+Kalguuran Scarab
+Kalguuran Scarab of Guarded Riches
+Kalguuran Scarab of Refinement
+Kalguuran Scarab of Enriching
+Scarab of Monstrous Lineage
+Scarab of Adversaries
+Scarab of Divinity
+Scarab of Hunted Traitors
+Scarab of Stability
+Scarab of Wisps
+Scarab of the Sinistral
+Scarab of the Dextral
+Scarab of Radiant Storms
+Horned Scarab of Bloodlines
+Horned Scarab of Nemeses
+Horned Scarab of Preservation
+Horned Scarab of Awakening
+Horned Scarab of Tradition
+Horned Scarab of Glittering
+Horned Scarab of Pandemonium
+The Maven's Writ
+Writhing Invitation
+Screaming Invitation
+Polaric Invitation
+Incandescent Invitation
+Timeless Eternal Empire Splinter
+Timeless Karui Splinter
+Timeless Vaal Splinter
+Timeless Templar Splinter
+Timeless Maraketh Splinter
+Simulacrum Splinter
+Crescent Splinter
+Ritual Splinter
+Memory of Trauma
+Memory of Reverence
+Memory of Loneliness
+Templar Astrolabe
+Fruiting Astrolabe
+Lightless Astrolabe
+Grasping Astrolabe
+Nameless Astrolabe
+Fungal Astrolabe
+Chaotic Astrolabe
+Deceptive Astrolabe
+Timeless Astrolabe
+Runic Astrolabe
+Karui Enshrouding Crystal
+Imperial Enshrouding Crystal
+Vaal Enshrouding Crystal
+Templar Enshrouding Crystal
+Maraketh Enshrouding Crystal
+Foulborn Orb of Augmentation
+Foulborn Regal Orb
+Foulborn Exalted Orb
+Provisioning Wombgift
+Lavish Wombgift
+Ancient Wombgift
+Mysterious Wombgift
+Allflame Ember of Kulemak
+Allflame Ember of Resplendence
+Allflame Ember of Propagation
+Allflame Ember of Flesh
+Allflame Ember of the Wildwood
+Allflame Ember of the Ethereal
+Allflame Ember of the Gilded
+Allflame Ember of Toads
 Runegraft of the River
 Runegraft of the Fortress
 Runegraft of the Combatant
@@ -130,6 +388,143 @@ Runegraft of Suffering
 Runegraft of the Spellbound
 Runegraft of Resurgence
 Runegraft of Connection
+Tattoo of the Ngamahu Firewalker
+Tattoo of the Ngamahu Shaman
+Tattoo of the Ngamahu Warrior
+Tattoo of the Ngamahu Warmonger
+Tattoo of the Ngamahu Woodcarver
+Tattoo of the Ngamahu Makanga
+Tattoo of the Kitava Blood Drinker
+Tattoo of the Kitava Rebel
+Tattoo of the Kitava Warrior
+Tattoo of the Kitava Heart Eater
+Tattoo of the Kitava Shaman
+Tattoo of the Kitava Makanga
+Tattoo of the Tukohama Shaman
+Tattoo of the Tukohama Warrior
+Tattoo of the Tukohama Brawler
+Tattoo of the Tukohama Warmonger
+Tattoo of the Tukohama Warcaller
+Tattoo of the Tukohama Makanga
+Tattoo of the Rongokurai Warrior
+Tattoo of the Rongokurai Brute
+Tattoo of the Rongokurai Goliath
+Tattoo of the Rongokurai Turtle
+Tattoo of the Rongokurai Guard
+Tattoo of the Rongokurai Makanga
+Tattoo of the Tasalio Bladedancer
+Tattoo of the Tasalio Tideshifter
+Tattoo of the Tasalio Shaman
+Tattoo of the Tasalio Warrior
+Tattoo of the Tasalio Scout
+Tattoo of the Tasalio Makanga
+Tattoo of the Arohongui Moonwarden
+Tattoo of the Arohongui Scout
+Tattoo of the Arohongui Warrior
+Tattoo of the Arohongui Warmonger
+Tattoo of the Arohongui Shaman
+Loyalty Tattoo of Ikiaho
+Tattoo of the Arohongui Makanga
+Tattoo of the Ramako Scout
+Tattoo of the Ramako Archer
+Tattoo of the Ramako Sniper
+Tattoo of the Ramako Fleetfoot
+Tattoo of the Ramako Shaman
+Tattoo of the Ramako Makanga
+Tattoo of the Hinekora Warrior
+Tattoo of the Hinekora Deathwarden
+Tattoo of the Hinekora Shaman
+Tattoo of the Hinekora Storyteller
+Tattoo of the Hinekora Warmonger
+Tattoo of the Hinekora Makanga
+Tattoo of the Tawhoa Naturalist
+Tattoo of the Tawhoa Scout
+Tattoo of the Tawhoa Warrior
+Tattoo of the Tawhoa Herbalist
+Tattoo of the Tawhoa Shaman
+Tattoo of the Tawhoa Makanga
+Tattoo of the Valako Stormrider
+Tattoo of the Valako Scout
+Tattoo of the Valako Warrior
+Tattoo of the Valako Shieldbearer
+Tattoo of the Valako Shaman
+Tattoo of the Valako Makanga
+Loyalty Tattoo of Kaom
+Loyalty Tattoo of Utula
+Loyalty Tattoo of Akoya
+Loyalty Tattoo of Kahuturoa
+Loyalty Tattoo of Rakiata
+Loyalty Tattoo of Ikiaho
+Loyalty Tattoo of Ahuana
+Loyalty Tattoo of Tawhanuku
+Loyalty Tattoo of Maata
+Loyalty Tattoo of Kiloava
+Honoured Tattoo of the Dove
+Honoured Tattoo of the Sky
+Honoured Tattoo of the Tuatara
+Honoured Tattoo of the Pillager
+Honoured Tattoo of the Turtle
+Honoured Tattoo of the Oak
+Honoured Tattoo of the Hatungo
+Honoured Tattoo of the Flock
+Honoured Tattoo of the Warlord
+Honoured Tattoo of the Mountain
+Honoured Tattoo of the Pa
+Honoured Tattoo of the Hunter
+Honoured Tattoo of the Barbarian
+Honoured Tattoo of the Berserker
+Honoured Tattoo of the Wise
+Honoured Tattoo of the Storm
+Honoured Tattoo of the Flood
+Ancestral Tattoo of Bloodlines
+Honoured Tattoo of the Makanga
+Journey Tattoo of the Body
+Journey Tattoo of the Mind
+Journey Tattoo of the Soul
+Journey Tattoo of Makanui
+Forbidden Tattoo of the Ranger
+Forbidden Tattoo of the Duelist
+Forbidden Tattoo of the Marauder
+Forbidden Tattoo of the Templar
+Forbidden Tattoo of the Witch
+Forbidden Tattoo of the Shadow
+Forbidden Tattoo of the Scion
+Omen of Amelioration
+Omen of Return
+Omen of Death-dancing
+Omen of Refreshment
+Omen of the Soul Devourer
+Omen of Fortune
+Omen of the Jeweller
+Omen of Connections
+Omen of Trichromatism
+Omen of Adrenaline
+Omen of Death's Door
+Omen of Brilliance
+Astragali
+Exotic Coinage
+Scrap Metal
+Burial Medallion
+Fine Delirium Orb
+Singular Delirium Orb
+Thaumaturge's Delirium Orb
+Blacksmith's Delirium Orb
+Armoursmith's Delirium Orb
+Cartographer's Delirium Orb
+Jeweller's Delirium Orb
+Abyssal Delirium Orb
+Kalguuran Delirium Orb
+Obscured Delirium Orb
+Whispering Delirium Orb
+Fragmented Delirium Orb
+Skittering Delirium Orb
+Fossilised Delirium Orb
+Diviner's Delirium Orb
+Delirium Orb
+Primal Delirium Orb
+Timeless Delirium Orb
+Blighted Delirium Orb
+Challenging Delirium Orb
 Turbulent Catalyst
 Imbued Catalyst
 Abrasive Catalyst
@@ -143,6 +538,52 @@ Unstable Catalyst
 Tainted Catalyst
 Sinistral Catalyst
 Dextral Catalyst
+Clear Oil
+Sepia Oil
+Amber Oil
+Verdant Oil
+Teal Oil
+Azure Oil
+Indigo Oil
+Violet Oil
+Crimson Oil
+Black Oil
+Opalescent Oil
+Silver Oil
+Golden Oil
+Prismatic Oil
+Tainted Oil
+Reflective Oil
+Oil Extractor
+Scorched Fossil
+Frigid Fossil
+Metallic Fossil
+Jagged Fossil
+Aberrant Fossil
+Pristine Fossil
+Dense Fossil
+Corroded Fossil
+Prismatic Fossil
+Aetheric Fossil
+Serrated Fossil
+Lucent Fossil
+Shuddering Fossil
+Bound Fossil
+Opulent Fossil
+Deft Fossil
+Fundamental Fossil
+Faceted Fossil
+Bloodstained Fossil
+Hollow Fossil
+Fractured Fossil
+Glyphic Fossil
+Tangled Fossil
+Sanctified Fossil
+Gilded Fossil
+Primitive Chaotic Resonator
+Potent Chaotic Resonator
+Powerful Chaotic Resonator
+Prime Chaotic Resonator
 Whispering Essence of Hatred
 Muttering Essence of Hatred
 Weeping Essence of Hatred
@@ -248,3 +689,97 @@ Essence of Insanity
 Essence of Horror
 Essence of Delirium
 Essence of Desolation
+Maps
+Map (Tier 1)
+Map (Tier 2)
+Map (Tier 3)
+Map (Tier 4)
+Map (Tier 5)
+Map (Tier 6)
+Map (Tier 7)
+Map (Tier 8)
+Map (Tier 9)
+Map (Tier 10)
+Map (Tier 11)
+Map (Tier 12)
+Map (Tier 13)
+Map (Tier 14)
+Map (Tier 15)
+Map (Tier 16)
+Nightmare Map
+Vaal Temple Map
+Valdo Map
+Blighted Maps
+Map (Tier 1)
+Map (Tier 2)
+Map (Tier 3)
+Map (Tier 4)
+Map (Tier 5)
+Map (Tier 6)
+Map (Tier 7)
+Map (Tier 8)
+Map (Tier 9)
+Map (Tier 10)
+Map (Tier 11)
+Map (Tier 12)
+Map (Tier 13)
+Map (Tier 14)
+Map (Tier 15)
+Map (Tier 16)
+Blight-Ravaged Maps
+Map (Tier 14)
+Map (Tier 15)
+Map (Tier 16)
+Memory-Influenced
+Map (Tier 1)
+Map (Tier 2)
+Map (Tier 3)
+Map (Tier 4)
+Map (Tier 5)
+Map (Tier 6)
+Map (Tier 7)
+Map (Tier 8)
+Map (Tier 9)
+Map (Tier 10)
+Map (Tier 11)
+Map (Tier 12)
+Map (Tier 13)
+Map (Tier 14)
+Map (Tier 15)
+Map (Tier 16)
+Al-Hezmin's Citadel Map
+Baran's Citadel Map
+Drox's Citadel Map
+Veritania's Citadel Map
+Enslaver-Occupied Map
+Eradicator-Occupied Map
+Constrictor-Occupied Map
+Purifier-Occupied Map
+Shaper Guardian Map
+Vaults of Atziri
+Maelström of Chaos
+The Coward's Trial
+Acton's Nightmare
+Poorjoy's Asylum
+Mao Kun
+Oba's Cursed Trove
+Olmec's Sanctum
+Untainted Paradise
+Death and Taxes
+Whakawairua Tuahu
+Hall of Grandmasters
+The Vinktar Square
+Caer Blaidd, Wolfpack's Den
+The Putrid Cloister
+Hallowed Ground
+The Twilight Temple
+Doryani's Machinarium
+Pillars of Arun
+Altered Distant Memory
+Augmented Distant Memory
+Twisted Distant Memory
+Rewritten Distant Memory
+Cortex
+Replica Cortex
+Replica Pillars of Arun
+Replica Poorjoy's Asylum

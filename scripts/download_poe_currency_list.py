@@ -36,7 +36,7 @@ result = response["result"]
 currencies_list = []
 
 for item in result:
-    if item["label"] not in CURRENCY_IDENTIFIERS:
+    if item["id"] not in CURRENCY_IDENTIFIERS:
         continue
     for entry in item["entries"]:
         if (entry["text"].strip() != ''):
