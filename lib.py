@@ -1,9 +1,17 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import re
 
 IMG_MIN_WIDTH = 1000.0
 IMG_MIN_HEIGHT = 1000.0
+
+CURRENCY_PATTERN = re.compile('^\d+x ')
+
+MINIMUM_CURRENCY_BOX_WIDTH = 100
+MAXIMUM_CURRENCY_BOX_WIDTH = 500
+MINIMUM_CURRENCY_BOX_HEIGHT = 25
+MAXIMUM_CURRENCY_BOX_HEIGHT = 55
 
 def resize_img(input_img: np.ndarray):
     if len(input_img.shape) == 2:
@@ -32,3 +40,11 @@ def notebook_imshow(img):
         plt.imshow(img, cmap='gray')
     plt.axis('off')
     plt.show()
+
+def load_currencies_set():
+    currencies = set()
+    with open('./data/currencies.txt', 'r') as f:
+        data = f.readlines()
+        for name in data:
+            currencies.add(name.strip().lower())
+    return currencies
