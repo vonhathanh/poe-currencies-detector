@@ -3,3 +3,5 @@ opencv-python==5.0.0.93
 mss
 rapidocr
 onnxruntime
+pyautogui
+pynput
