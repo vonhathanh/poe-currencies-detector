@@ -5,3 +5,4 @@ rapidocr
 onnxruntime
 pyautogui
 pynput
+flet
