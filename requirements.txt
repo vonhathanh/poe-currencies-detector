@@ -6,3 +6,4 @@ onnxruntime
 pyautogui
 pynput
 flet
+matplotlib
