@@ -48,3 +48,28 @@ def load_currencies_set():
         for name in data:
             currencies.add(name.strip().lower())
     return currencies
+
+def find_currency_coords(img, engine, currencies_set):
+    result = engine(img)
+    txts: list[str] = result.txts
+    coords = []
+    # enumerate over all bounding boxes
+    for i, box in enumerate(result.boxes):
+        top_left, top_right, _, bottom_left = box
+        width = int(top_right[0] - top_left[0])
+        height = int(bottom_left[1] - top_left[1])
+        # check if the box has valid width & height
+        if MAXIMUM_CURRENCY_BOX_WIDTH > width > MINIMUM_CURRENCY_BOX_WIDTH and MAXIMUM_CURRENCY_BOX_HEIGHT > height > MINIMUM_CURRENCY_BOX_HEIGHT:
+            text = txts[i].lower()
+            # check text has prefix like: 1x, 2x,... nx + currency name
+            match = CURRENCY_PATTERN.match(text)
+            if match:
+                # remove the prefix to get the original currency name only
+                end_pos = match.end()
+                text = text[end_pos:]    
+            if text not in currencies_set:
+                continue
+            x = int(top_left[0]) + width // 2
+            y = int(top_left[1]) + height // 2
+            coords.append((x, y))
+    return coords
