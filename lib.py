@@ -2,16 +2,29 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import re
+from rapidocr import EngineType, RapidOCR
 
-IMG_MIN_WIDTH = 1000.0
-IMG_MIN_HEIGHT = 1000.0
+
+IMG_MAX_WIDTH = 1024
+
 
 CURRENCY_PATTERN = re.compile('^\d+x ')
 
 MINIMUM_CURRENCY_BOX_WIDTH = 100
-MAXIMUM_CURRENCY_BOX_WIDTH = 500
+MAXIMUM_CURRENCY_BOX_WIDTH = 530
 MINIMUM_CURRENCY_BOX_HEIGHT = 25
 MAXIMUM_CURRENCY_BOX_HEIGHT = 55
+
+
+engine = RapidOCR(
+    params={
+        "Det.engine_type": EngineType.TORCH,
+        "Cls.engine_type": EngineType.TORCH,
+        "Rec.engine_type": EngineType.TORCH,
+        "EngineConfig.torch.use_cuda": True,  # 使用 torch GPU 版推理
+        "EngineConfig.torch.cuda_ep_cfg.device_id": 0,  # 指定GPU id
+    }
+)
 
 def resize_img(input_img: np.ndarray):
     if len(input_img.shape) == 2:
@@ -21,8 +34,8 @@ def resize_img(input_img: np.ndarray):
     else:
         raise ValueError(f'expect input image to has shape = 2 or 3, got: {len(input_img.shape)}')
 
-    if width > IMG_MIN_WIDTH:
-        ratio = IMG_MIN_WIDTH / width
+    if width > IMG_MAX_WIDTH:
+        ratio = IMG_MAX_WIDTH / width
         width = int(ratio * width)
         height = int(ratio * height)
     else:
@@ -49,7 +62,7 @@ def load_currencies_set():
             currencies.add(name.strip().lower())
     return currencies
 
-def find_currency_coords(img, engine, currencies_set):
+def find_currency_coords(img, currencies_set):
     result = engine(img)
     txts: list[str] = result.txts
     coords = []
@@ -71,5 +84,5 @@ def find_currency_coords(img, engine, currencies_set):
                 continue
             x = int(top_left[0]) + width // 2
             y = int(top_left[1]) + height // 2
-            coords.append((x, y))
+            coords.append((x, y, text))
     return coords

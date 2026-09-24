@@ -70,7 +70,6 @@ Testing/
 
 .venv/
 .idea/
-imgs/
 .ipynb_checkpoints/
 __pycache__/
 

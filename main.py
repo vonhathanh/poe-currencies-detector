@@ -3,11 +3,10 @@ import numpy as np
 import mss
 import pyautogui
 from pynput import keyboard
-from rapidocr import RapidOCR
 from lib import *
 import flet as ft
+import cv2
 
-engine = RapidOCR()
 currencies = load_currencies_set()
 screen_capture = mss.MSS()
 monitor = screen_capture.monitors[1]  # or a region
@@ -19,12 +18,18 @@ def on_press(key):
 def pickup_currencies():
     start = time.time()
     screenshot = screen_capture.grab(monitor)
-    img = np.array(screenshot)
+    img = np.asarray(screenshot)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGRA2GRAY)
     end = time.time()
-    print(f"Time taken to read image: {end - start}")
-    coords = find_currency_coords(img, engine, currencies)
+    print(f"Time taken to read image: {end - start:.3f}s")
+    
+    start = time.time()
+    coords = find_currency_coords(gray, currencies)
+    end = time.time()
+    print(f"Time taken to find coords: {end - start:.3f}s")
     print(f'found coords: {coords}')
-    for x, y in coords:
+    for x, y, _ in coords:
+        time.sleep(0.05)
         pyautogui.click(x, y)
 
 def main(page: ft.Page):
@@ -33,8 +38,8 @@ def main(page: ft.Page):
     listener.start()
 
     page.title = "PoE Detector"
-    page.window_width = 400
-    page.window_height = 300
+    page.window_width = 250
+    page.window_height = 150
     page.padding = 30
 
     currencies = ft.Checkbox(label="Currencies")
