@@ -2,7 +2,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import re
-from rapidocr import EngineType, RapidOCR
+
+from paddleocr import TextDetection, TextRecognition
 
 
 IMG_MAX_WIDTH = 1024
@@ -15,16 +16,9 @@ MAXIMUM_CURRENCY_BOX_WIDTH = 530
 MINIMUM_CURRENCY_BOX_HEIGHT = 25
 MAXIMUM_CURRENCY_BOX_HEIGHT = 55
 
+text_detection_model = TextDetection(engine='transformers')
+text_recognition_model = TextRecognition(engine='transformers')
 
-engine = RapidOCR(
-    params={
-        "Det.engine_type": EngineType.TORCH,
-        "Cls.engine_type": EngineType.TORCH,
-        "Rec.engine_type": EngineType.TORCH,
-        "EngineConfig.torch.use_cuda": True,  # 使用 torch GPU 版推理
-        "EngineConfig.torch.cuda_ep_cfg.device_id": 0,  # 指定GPU id
-    }
-)
 
 def resize_img(input_img: np.ndarray):
     if len(input_img.shape) == 2:
@@ -63,26 +57,34 @@ def load_currencies_set():
     return currencies
 
 def find_currency_coords(img, currencies_set):
-    result = engine(img)
-    txts: list[str] = result.txts
-    coords = []
-    # enumerate over all bounding boxes
-    for i, box in enumerate(result.boxes):
+    boxes = text_detection_model.predict(img)[0]["dt_polys"]
+    
+    valid_boxes = []
+
+    for box in boxes:
         top_left, top_right, _, bottom_left = box
         width = int(top_right[0] - top_left[0])
         height = int(bottom_left[1] - top_left[1])
         # check if the box has valid width & height
         if MAXIMUM_CURRENCY_BOX_WIDTH > width > MINIMUM_CURRENCY_BOX_WIDTH and MAXIMUM_CURRENCY_BOX_HEIGHT > height > MINIMUM_CURRENCY_BOX_HEIGHT:
-            text = txts[i].lower()
-            # check text has prefix like: 1x, 2x,... nx + currency name
-            match = CURRENCY_PATTERN.match(text)
-            if match:
-                # remove the prefix to get the original currency name only
-                end_pos = match.end()
-                text = text[end_pos:]    
-            if text not in currencies_set:
-                continue
-            x = int(top_left[0]) + width // 2
-            y = int(top_left[1]) + height // 2
-            coords.append((x, y, text))
+            cropped_region = img[top_left[1]:bottom_left[1], top_left[0]:top_right[0], :]
+            valid_boxes.append(cropped_region)
+    txts = text_recognition_model.predict(valid_boxes, batch_size=32)
+    
+    coords = []
+    # enumerate over all bounding boxes
+    for txt_obj in txts:
+        text = txt_obj["rec_text"].lower()
+        print('text ', text)
+        # check text has prefix like: 1x, 2x,... nx + currency name
+        match = CURRENCY_PATTERN.match(text)
+        if match:
+            # remove the prefix to get the original currency name only
+            end_pos = match.end()
+            text = text[end_pos:]    
+        if text not in currencies_set:
+            continue
+        x = int(top_left[0]) + width // 2
+        y = int(top_left[1]) + height // 2
+        coords.append((x, y, text))
     return coords

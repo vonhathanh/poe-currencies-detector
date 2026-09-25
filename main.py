@@ -19,12 +19,11 @@ def pickup_currencies():
     start = time.time()
     screenshot = screen_capture.grab(monitor)
     img = np.asarray(screenshot)
-    gray = cv2.cvtColor(img, cv2.COLOR_BGRA2GRAY)
     end = time.time()
     print(f"Time taken to read image: {end - start:.3f}s")
     
     start = time.time()
-    coords = find_currency_coords(gray, currencies)
+    coords = find_currency_coords(img, currencies)
     end = time.time()
     print(f"Time taken to find coords: {end - start:.3f}s")
     print(f'found coords: {coords}')
