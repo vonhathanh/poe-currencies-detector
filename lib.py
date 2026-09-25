@@ -60,6 +60,8 @@ def find_currency_coords(img, currencies_set):
     boxes = text_detection_model.predict(img)[0]["dt_polys"]
     
     valid_boxes = []
+    # store center coordinate of all valid text boxes
+    box_coords = []
 
     for box in boxes:
         top_left, top_right, _, bottom_left = box
@@ -67,15 +69,20 @@ def find_currency_coords(img, currencies_set):
         height = int(bottom_left[1] - top_left[1])
         # check if the box has valid width & height
         if MAXIMUM_CURRENCY_BOX_WIDTH > width > MINIMUM_CURRENCY_BOX_WIDTH and MAXIMUM_CURRENCY_BOX_HEIGHT > height > MINIMUM_CURRENCY_BOX_HEIGHT:
-            cropped_region = img[top_left[1]:bottom_left[1], top_left[0]:top_right[0], :]
+            # y1 -> y2, x1 -> x2
+            cropped_region = img[top_left[1]-3:bottom_left[1]+3, top_left[0]-3:top_right[0]+3, :]
             valid_boxes.append(cropped_region)
+
+            x = int(top_left[0]) + width // 2
+            y = int(top_left[1]) + height // 2
+            box_coords.append((x, y))
+    # forward pass for all valid boxes by batch to speed up performance
     txts = text_recognition_model.predict(valid_boxes, batch_size=32)
     
     coords = []
     # enumerate over all bounding boxes
-    for txt_obj in txts:
+    for i, txt_obj in enumerate(txts):
         text = txt_obj["rec_text"].lower()
-        print('text ', text)
         # check text has prefix like: 1x, 2x,... nx + currency name
         match = CURRENCY_PATTERN.match(text)
         if match:
@@ -84,7 +91,6 @@ def find_currency_coords(img, currencies_set):
             text = text[end_pos:]    
         if text not in currencies_set:
             continue
-        x = int(top_left[0]) + width // 2
-        y = int(top_left[1]) + height // 2
+        x, y =  box_coords[i]
         coords.append((x, y, text))
     return coords
