@@ -43,8 +43,11 @@ def notebook_imshow(img):
     if len(img.shape) == 3:
         plt.imshow(img)
     # gray img
-    else: 
+    elif len(img.shape) == 2: 
         plt.imshow(img, cmap='gray')
+    # god's img
+    else:
+        raise ValueError(f"input img has malformed shape, expected input are 2d array & 3d array, got: {len(img.shape)}d array")
     plt.axis('off')
     plt.show()
 
