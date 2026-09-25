@@ -27,9 +27,10 @@ def pickup_currencies():
     end = time.time()
     print(f"Time taken to find coords: {end - start:.3f}s")
     print(f'found coords: {coords}')
+    
     for x, y, _ in coords:
-        time.sleep(0.05)
-        pyautogui.click(x, y)
+        time.sleep(0.1)
+        pyautogui.leftClick(x, y)
 
 def main(page: ft.Page):
 
